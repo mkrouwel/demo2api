@@ -2039,6 +2039,9 @@ components:
    properties:
     Registration:
      $ref: '#/components/schemas/Registration'
+    starting day:
+     type: string
+     format: date-time
   AnnualRegistrationPayment:
    type: object
    properties:
@@ -2051,6 +2054,9 @@ components:
    properties:
     Registration:
      $ref: '#/components/schemas/Registration'
+    ending day:
+     type: string
+     format: date-time
   TK04product:
    type: object
    properties:

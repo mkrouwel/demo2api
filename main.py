@@ -52,6 +52,20 @@ for tk in data['transactionkinds']:
     f.write(f"  {tk['productname']}:\n   type: object\n   properties:\n")
     for ck in tk['casekinds']:
         f.write(f"    {ck}:\n     $ref: '#/components/schemas/{ck}'\n")
+    for fk2 in data['factkinds']:
+        if (fk2['type'] == 'propertytype' or fk2['type'] == 'attributetype') and fk2['domain'] == tk['productname']:
+            f.write(f"    {fk2['name']}:\n")
+            if fk2['type'] == 'propertytype':
+                f.write(f"      $ref: '#/components/schemas/{fk2['range']}'\n")
+            if fk2['type'] == 'attributetype':
+                if fk2['range'].startswith('primitive:'):
+                    fk2range = fk2['range'].split(':')[1]
+                    if fk2range == 'datetime':
+                        f.write(f"     type: string\n     format: date-time\n")
+                    else:
+                        f.write(f"     type: {fk2range}\n")
+                else:
+                    f.write(f"      $ref: '#/components/schemas/{fk2['range']}'\n")
 
 for fk in data['factkinds']:
     if fk['type'] == 'valuetype':
