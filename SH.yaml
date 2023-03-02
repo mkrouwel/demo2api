@@ -1,0 +1,2355 @@
+openapi: 3.0.0
+info:
+ version: 1.0.0
+ title: test
+paths:
+ /TK01rq:
+  post:
+   summary: creates a new TK01-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-rq:
+  post:
+   summary: creates a new TK01-rv-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-rq-al:
+  post:
+   summary: creates a new TK01-rv-rq-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-rq-rf:
+  post:
+   summary: creates a new TK01-rv-rq-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01pm:
+  post:
+   summary: creates a new TK01-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-pm:
+  post:
+   summary: creates a new TK01-rv-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-pm-al:
+  post:
+   summary: creates a new TK01-rv-pm-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-pm-rf:
+  post:
+   summary: creates a new TK01-rv-pm-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01da:
+  post:
+   summary: creates a new TK01-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-da:
+  post:
+   summary: creates a new TK01-rv-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-da-al:
+  post:
+   summary: creates a new TK01-rv-da-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-da-rf:
+  post:
+   summary: creates a new TK01-rv-da-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01ac:
+  post:
+   summary: creates a new TK01-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-ac:
+  post:
+   summary: creates a new TK01-rv-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-ac-al:
+  post:
+   summary: creates a new TK01-rv-ac-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rv-ac-rf:
+  post:
+   summary: creates a new TK01-rv-ac-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01dc:
+  post:
+   summary: creates a new TK01-dc
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01rj:
+  post:
+   summary: creates a new TK01-rj
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK01ex:
+  post:
+   summary: creates a new TK01-ex
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rq:
+  post:
+   summary: creates a new TK02-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-rq:
+  post:
+   summary: creates a new TK02-rv-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-rq-al:
+  post:
+   summary: creates a new TK02-rv-rq-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-rq-rf:
+  post:
+   summary: creates a new TK02-rv-rq-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02pm:
+  post:
+   summary: creates a new TK02-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-pm:
+  post:
+   summary: creates a new TK02-rv-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-pm-al:
+  post:
+   summary: creates a new TK02-rv-pm-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-pm-rf:
+  post:
+   summary: creates a new TK02-rv-pm-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02da:
+  post:
+   summary: creates a new TK02-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-da:
+  post:
+   summary: creates a new TK02-rv-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-da-al:
+  post:
+   summary: creates a new TK02-rv-da-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-da-rf:
+  post:
+   summary: creates a new TK02-rv-da-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02ac:
+  post:
+   summary: creates a new TK02-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-ac:
+  post:
+   summary: creates a new TK02-rv-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-ac-al:
+  post:
+   summary: creates a new TK02-rv-ac-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rv-ac-rf:
+  post:
+   summary: creates a new TK02-rv-ac-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02dc:
+  post:
+   summary: creates a new TK02-dc
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02rj:
+  post:
+   summary: creates a new TK02-rj
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK02ex:
+  post:
+   summary: creates a new TK02-ex
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rq:
+  post:
+   summary: creates a new TK03-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-rq:
+  post:
+   summary: creates a new TK03-rv-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-rq-al:
+  post:
+   summary: creates a new TK03-rv-rq-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-rq-rf:
+  post:
+   summary: creates a new TK03-rv-rq-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03pm:
+  post:
+   summary: creates a new TK03-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-pm:
+  post:
+   summary: creates a new TK03-rv-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-pm-al:
+  post:
+   summary: creates a new TK03-rv-pm-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-pm-rf:
+  post:
+   summary: creates a new TK03-rv-pm-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03da:
+  post:
+   summary: creates a new TK03-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-da:
+  post:
+   summary: creates a new TK03-rv-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-da-al:
+  post:
+   summary: creates a new TK03-rv-da-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-da-rf:
+  post:
+   summary: creates a new TK03-rv-da-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03ac:
+  post:
+   summary: creates a new TK03-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-ac:
+  post:
+   summary: creates a new TK03-rv-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-ac-al:
+  post:
+   summary: creates a new TK03-rv-ac-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rv-ac-rf:
+  post:
+   summary: creates a new TK03-rv-ac-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03dc:
+  post:
+   summary: creates a new TK03-dc
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03rj:
+  post:
+   summary: creates a new TK03-rj
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK03ex:
+  post:
+   summary: creates a new TK03-ex
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Registration:
+         $ref: '#/components/schemas/Registration'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rq:
+  post:
+   summary: creates a new TK04-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-rq:
+  post:
+   summary: creates a new TK04-rv-rq
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-rq-al:
+  post:
+   summary: creates a new TK04-rv-rq-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-rq-rf:
+  post:
+   summary: creates a new TK04-rv-rq-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04pm:
+  post:
+   summary: creates a new TK04-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-pm:
+  post:
+   summary: creates a new TK04-rv-pm
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-pm-al:
+  post:
+   summary: creates a new TK04-rv-pm-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-pm-rf:
+  post:
+   summary: creates a new TK04-rv-pm-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04da:
+  post:
+   summary: creates a new TK04-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-da:
+  post:
+   summary: creates a new TK04-rv-da
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-da-al:
+  post:
+   summary: creates a new TK04-rv-da-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-da-rf:
+  post:
+   summary: creates a new TK04-rv-da-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04ac:
+  post:
+   summary: creates a new TK04-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-ac:
+  post:
+   summary: creates a new TK04-rv-ac
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-ac-al:
+  post:
+   summary: creates a new TK04-rv-ac-al
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rv-ac-rf:
+  post:
+   summary: creates a new TK04-rv-ac-rf
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04dc:
+  post:
+   summary: creates a new TK04-dc
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04rj:
+  post:
+   summary: creates a new TK04-rj
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /TK04ex:
+  post:
+   summary: creates a new TK04-ex
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        Year:
+         $ref: '#/components/schemas/Year'
+   responses:
+    '201':
+     description: C-fact created
+     content:
+      application\json:
+       schema:
+        type: integer
+        example: 12345
+    '400':
+     description: 'invalid input'
+ /Registration/{RegistrationID}:
+  get:
+   summary: returns Registration data for given ID if it exists
+   parameters:
+    - in: path
+      name: RegistrationID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: Registration found
+     content:
+      application\json:
+       schema:
+        $ref: '#/components/schemas/Registration'
+    '400':
+     description: 'Registration not found'
+ /Person/{PersonID}:
+  get:
+   summary: returns Person data for given ID if it exists
+   parameters:
+    - in: path
+      name: PersonID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: Person found
+     content:
+      application\json:
+       schema:
+        $ref: '#/components/schemas/Person'
+    '400':
+     description: 'Person not found'
+ /Year/{YearID}:
+  get:
+   summary: returns Year data for given ID if it exists
+   parameters:
+    - in: path
+      name: YearID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: Year found
+     content:
+      application\json:
+       schema:
+        $ref: '#/components/schemas/Year'
+    '400':
+     description: 'Year not found'
+ /calculatePersonAge:
+  get:
+   summary: returns PersonAge data for given input
+   parameters:
+    - in: query
+      name: PersonID
+      schema:
+       type: integer
+      required: true
+    - in: query
+      name: day
+      schema:
+       type: string
+      required: true
+   responses:
+    '200':
+     description: PersonAge calculated
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: 'invalid input'
+ /assessARS01/{cactID}:
+  get:
+   summary: evaluates assess part of ARS01 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS01:
+  post:
+   summary: performs the response part of ARS01 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS02/{cactID}:
+  get:
+   summary: evaluates assess part of ARS02 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS02:
+  post:
+   summary: performs the response part of ARS02 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS03/{cactID}:
+  get:
+   summary: evaluates assess part of ARS03 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS03:
+  post:
+   summary: performs the response part of ARS03 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS04/{cactID}:
+  get:
+   summary: evaluates assess part of ARS04 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS04:
+  post:
+   summary: performs the response part of ARS04 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS05/{cactID}:
+  get:
+   summary: evaluates assess part of ARS05 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS05:
+  post:
+   summary: performs the response part of ARS05 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS06/{cactID}:
+  get:
+   summary: evaluates assess part of ARS06 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS06:
+  post:
+   summary: performs the response part of ARS06 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS07/{cactID}:
+  get:
+   summary: evaluates assess part of ARS07 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS07:
+  post:
+   summary: performs the response part of ARS07 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS08/{cactID}:
+  get:
+   summary: evaluates assess part of ARS08 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS08:
+  post:
+   summary: performs the response part of ARS08 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS09/{cactID}:
+  get:
+   summary: evaluates assess part of ARS09 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS09:
+  post:
+   summary: performs the response part of ARS09 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS10/{cactID}:
+  get:
+   summary: evaluates assess part of ARS10 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS10:
+  post:
+   summary: performs the response part of ARS10 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /assessARS11/{cactID}:
+  get:
+   summary: evaluates assess part of ARS11 for given C-act
+   parameters:
+    - in: path
+      name: cactID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: assessment performed with result
+     content:
+      application\json:
+       schema:
+        type: integer
+    '400':
+     description: assessment failed'
+ /responseARS11:
+  post:
+   summary: performs the response part of ARS11 for given C-act and decision
+   requestBody:
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        cactID:
+         type: integer
+        decision:
+         type: integer
+   responses:
+    '201':
+     description: response part performed
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+    '400':
+     description: performing response part failed'
+ /agendaForCTAR01:
+  get:
+   summary: retrieves agenda for CTAR01
+   responses:
+    '200':
+     description: agenda for CTAR01 retrieved
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+ /agendaForAR01:
+  get:
+   summary: retrieves agenda for AR01
+   responses:
+    '200':
+     description: agenda for AR01 retrieved
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+ /agendaForAR02:
+  get:
+   summary: retrieves agenda for AR02
+   responses:
+    '200':
+     description: agenda for AR02 retrieved
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+ /agendaForAR03:
+  get:
+   summary: retrieves agenda for AR03
+   responses:
+    '200':
+     description: agenda for AR03 retrieved
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+ /agendaForAR04:
+  get:
+   summary: retrieves agenda for AR04
+   responses:
+    '200':
+     description: agenda for AR04 retrieved
+     content:
+      application\json:
+       schema:
+        type: array
+        items:
+         type: integer
+components:
+ schemas:
+  Registration:
+   type: object
+   properties:
+    member:
+      $ref: '#/components/schemas/Person'
+    payer:
+      $ref: '#/components/schemas/Person'
+    starting day:
+     type: string
+     format: date-time
+    ending day:
+     type: string
+     format: date-time
+  Person:
+   type: object
+   properties:
+    day of birth:
+     type: string
+     format: date-time
+    nationality:
+      $ref: '#/components/schemas/Nationality'
+  Year:
+   type: object
+   properties:
+    year number:
+    type: integer
+  Nationality:
+   type: string
