@@ -69,7 +69,11 @@ for tk in data['transactionkinds']:
 
 for fk in data['factkinds']:
     if fk['type'] == 'valuetype':
-        f.write(f"  {fk['name']}:\n   type: {fk['primitive']}\n")
+        f.write(f"  {fk['name']}:\n")
+        if fk['primitive'] == 'datetime':
+            f.write(f"     type: string\n     format: date-time\n")
+        else:
+            f.write(f"   type: {fk['primitive']}\n")
     if fk['type'] == 'entitytype':
         f.write(f"  {fk['name']}:\n   type: object\n   properties:\n")
         for fk2 in data['factkinds']:

@@ -16,16 +16,16 @@
     "factkinds": [
         {"name": "Registration", "type": "entitytype", "focus": "in"},
         {"name": "Person", "type": "entitytype", "focus": "out"},
-        {"name": "Year", "type": "entitytype", "focus": "out"},
+        {"name": "Year", "type": "valuetype", "primitive": "integer"},
         {"name": "Nationality", "type": "valuetype", "values": "NL, EN", "primitive": "string"},
+        {"name": "Day", "type": "valuetype", "primitive": "datetime"},
         {"name": "member", "type": "propertytype", "domain": "Registration", "range": "Person"},
         {"name": "payer", "type": "propertytype", "domain": "Registration", "range": "Person"},
-        {"name": "starting day", "type": "attributetype", "domain": "StartedRegistration", "range": "primitive:datetime"},
-        {"name": "ending day", "type": "attributetype", "domain": "EndedRegistration", "range": "primitive:datetime"},
-        {"name": "day of birth", "type": "attributetype", "domain": "Person", "range": "primitive:datetime"},
-        {"name": "year number", "type": "attributetype", "domain": "Year", "range": "primitive:integer"},
+        {"name": "starting day", "type": "attributetype", "domain": "StartedRegistration", "range": "Day"},
+        {"name": "ending day", "type": "attributetype", "domain": "EndedRegistration", "range": "Day"},
+        {"name": "day of birth", "type": "attributetype", "domain": "Person", "range": "Day"},
         {"name": "nationality", "type": "attributetype", "domain": "Person", "range": "Nationality"},
-        {"name": "PersonAge", "type": "derived", "parameters": ["Person", "primitive:string:day"], "result": "primitive:integer"}
+        {"name": "PersonAge", "type": "derived", "parameters": ["Person", "Day"], "result": "primitive:integer"}
     ],
     "actionrules": 
     [

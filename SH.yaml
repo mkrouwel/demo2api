@@ -1425,24 +1425,6 @@ paths:
         $ref: '#/components/schemas/Person'
     '400':
      description: Person not found
- /Year/{YearID}:
-  get:
-   summary: returns Year data for given ID if it exists
-   parameters:
-    - in: path
-      name: YearID
-      schema:
-       type: integer
-      required: true
-   responses:
-    '200':
-     description: Year found
-     content:
-      application\json:
-       schema:
-        $ref: '#/components/schemas/Year'
-    '400':
-     description: Year not found
  /calculatePersonAge:
   get:
    summary: returns PersonAge data for given input
@@ -1453,9 +1435,9 @@ paths:
        $ref: '#/components/schemas/Person'
       required: true
     - in: query
-      name: day
+      name: Day
       schema:
-       type: string
+       $ref: '#/components/schemas/Day'
       required: true
    responses:
     '200':
@@ -2040,8 +2022,7 @@ components:
     Registration:
      $ref: '#/components/schemas/Registration'
     starting day:
-     type: string
-     format: date-time
+      $ref: '#/components/schemas/Day'
   AnnualRegistrationPayment:
    type: object
    properties:
@@ -2055,8 +2036,7 @@ components:
     Registration:
      $ref: '#/components/schemas/Registration'
     ending day:
-     type: string
-     format: date-time
+      $ref: '#/components/schemas/Day'
   TK04product:
    type: object
    properties:
@@ -2073,14 +2053,13 @@ components:
    type: object
    properties:
     day of birth:
-     type: string
-     format: date-time
+      $ref: '#/components/schemas/Day'
     nationality:
       $ref: '#/components/schemas/Nationality'
   Year:
-   type: object
-   properties:
-    year number:
-     type: integer
+   type: integer
   Nationality:
    type: string
+  Day:
+   type: string
+   format: date-time
