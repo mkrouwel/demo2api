@@ -1425,6 +1425,24 @@ paths:
         $ref: '#/components/schemas/Person'
     '400':
      description: Person not found
+ /YearE/{YearEID}:
+  get:
+   summary: returns YearE data for given ID if it exists
+   parameters:
+    - in: path
+      name: YearEID
+      schema:
+       type: integer
+      required: true
+   responses:
+    '200':
+     description: YearE found
+     content:
+      application\json:
+       schema:
+        $ref: '#/components/schemas/YearE'
+    '400':
+     description: YearE not found
  /calculatePersonAge:
   get:
    summary: returns PersonAge data for given input
@@ -1446,6 +1464,29 @@ paths:
       application\json:
        schema:
         type: integer
+    '400':
+     description: invalid input
+ /calculatePersonHasActiveRegistration:
+  get:
+   summary: returns PersonHasActiveRegistration data for given input
+   parameters:
+    - in: query
+      name: Person
+      schema:
+       $ref: '#/components/schemas/Person'
+      required: true
+    - in: query
+      name: Day
+      schema:
+       $ref: '#/components/schemas/Day'
+      required: true
+   responses:
+    '200':
+     description: PersonHasActiveRegistration calculated
+     content:
+      application\json:
+       schema:
+        type: boolean
     '400':
      description: invalid input
  /assessARS01/{cactID}:
@@ -2028,8 +2069,10 @@ components:
    properties:
     Registration:
      $ref: '#/components/schemas/Registration'
-    Year:
-     $ref: '#/components/schemas/Year'
+    YearE:
+     $ref: '#/components/schemas/YearE'
+    paid amount:
+      $ref: '#/components/schemas/Money'
   EndedRegistration:
    type: object
    properties:
@@ -2040,8 +2083,8 @@ components:
   TK04product:
    type: object
    properties:
-    Year:
-     $ref: '#/components/schemas/Year'
+    YearE:
+     $ref: '#/components/schemas/YearE'
   Registration:
    type: object
    properties:
@@ -2056,10 +2099,17 @@ components:
       $ref: '#/components/schemas/Day'
     nationality:
       $ref: '#/components/schemas/Nationality'
-  Year:
+  YearV:
    type: integer
+  YearE:
+   type: object
+   properties:
+    year:
+      $ref: '#/components/schemas/YearV'
   Nationality:
    type: string
   Day:
    type: string
    format: date-time
+  Money:
+   type: number
