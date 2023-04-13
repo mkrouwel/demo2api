@@ -26,6 +26,8 @@
         {"name": "starting day", "type": "attributetype", "domain": "StartedRegistration", "range": "Day"},
         {"name": "ending day", "type": "attributetype", "domain": "EndedRegistration", "range": "Day"},
         {"name": "year", "type": "attributetype", "domain": "YearE", "range": "YearV"},
+        {"name": "standard registration fee", "type": "attributetype", "domain": "YearE", "range": "Money"},
+        {"name": "standard renewal fee", "type": "attributetype", "domain": "YearE", "range": "Money"},
         {"name": "day of birth", "type": "attributetype", "domain": "Person", "range": "Day"},
         {"name": "paid amount", "type": "attributetype", "domain": "AnnualRegistrationPayment", "range": "Money"},
         {"name": "nationality", "type": "attributetype", "domain": "Person", "range": "Nationality"},
@@ -48,6 +50,7 @@
     ],
     "oivs": [
         {"name": "functionary type"},
-        {"name": "organizational unit"}
+        {"name": "organizational unit"},
+        {"name": "authorization"}
     ]
 }

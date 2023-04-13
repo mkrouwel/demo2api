@@ -2106,6 +2106,10 @@ components:
    properties:
     year:
       $ref: '#/components/schemas/YearV'
+    standard registration fee:
+      $ref: '#/components/schemas/Money'
+    standard renewal fee:
+      $ref: '#/components/schemas/Money'
   Nationality:
    type: string
   Day:
